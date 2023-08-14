@@ -22,12 +22,7 @@ Link do repositório no Dockerhub: https://hub.docker.com/r/mihaell/ponderadas
 
 No seu terminal e **em sua pasta selecionada**, baixe a imagem do DockerHub através do comando:
 ```
-docker push mihaell/ponderadas:latest
-```
-
-Construa seu container:
-```
-docker build -t meu-curriculo:seu-container .
+docker pull mihaell/ponderadas
 ```
 
 Rode o container criado:
