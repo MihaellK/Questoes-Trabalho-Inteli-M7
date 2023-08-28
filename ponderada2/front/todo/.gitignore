@@ -2,28 +2,9 @@
 
 # dependencies
 /node_modules
+
 /.pnp
 .pnp.js
-
-ponderada2.zip
-
-/Include
-/Lib
-/Scripts
-/ponderada2/backend/__pycache__
-/ponderada2/backend/app/__pycache__
-/ponderada2/backend/app/auth/__pycache__
-/ponderada2/backend/Include
-/ponderada2/backend/Lib
-/ponderada2/backend/Scripts
-
-ponderada2/backend/pyvenv.cfg
-
-/ponderada2/src/__pycache__
-/ponderada2/src/Include
-/ponderada2/src/Lib
-/ponderada2/src/Scripts
-
 
 # testing
 /coverage
