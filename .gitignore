@@ -24,7 +24,7 @@ ponderada2/backend/pyvenv.cfg
 /ponderada2/src/Lib
 /ponderada2/src/Scripts
 
-/ponderada2/last_hope/venv
+/ponderada2/venv
 
 # testing
 /coverage
