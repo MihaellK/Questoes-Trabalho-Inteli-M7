@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    
+    {% for note in notes %}
+        <div class="post-note">
+            <div class="note-text">
+                {{ note.text }}
+            </div>
+        </div>
+    {% endfor %}
+
+{% endblock %}

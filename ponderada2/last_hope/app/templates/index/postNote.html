@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    Publicar Nota
+    <div class="publishcontent">
+        <form method="POST" action="/add_note">
+            Nova Nota<br>
+            
+            <input type="text" class="note_text" id="note_text" name="note_text"><br>
+            <input type="submit" value="Enviar Nota">
+        </form>
+    </div>
+{% endblock %}
