@@ -3,7 +3,7 @@
 ## Descrição
 
 Nesta atividade foi criada uma API para um modelo de Machine Learning dockerizada. Foi usado o dataset 
-![Youtube statistic](https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023) para a predição do rendimento anual maximo de uma conta do youtube com base nas visualizações do ultimo 30 dias, minimos e maximos de rendimentos mensais e minimo anual.
+[Youtube statistic](https://www.kaggle.com/datasets/nelgiriyewithana/global-youtube-statistics-2023) para a predição do rendimento anual maximo de uma conta do youtube com base nas visualizações do ultimo 30 dias, minimos e maximos de rendimentos mensais e minimo anual.
 
 ### Modelo e Processamento
 Para processamento dos dados primeiro foi feita uma seleção de features das 28 da tabela onde foi escolhido apenas 5. **As colunas comentadas não serão ignoradas na etapa de setup pelo pycaret**
@@ -15,11 +15,11 @@ Para etapa de **setup** foi escolhida apos diversos testes de resultado as segui
 - inputação numerica das colunas com dados faltando através da media da coluna
 - remoção de outlier usando o método do sklearn LocalOutlierFactor
 
-![código do setup](/media/setup.png)
+![código do setup](./media/setup.png)
 
 **Output gerado pelo setup**
 
-![output setup](/media/setup_out.png)
+![output setup](./media/setup_out.png)
 
 
 ## Execução
