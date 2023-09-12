@@ -31,6 +31,7 @@ docker pull mihaell/api_model_tag:latest
 ```
 
 Caso tenha problemas na execução, a imagem pode ser encontrada [aqui](https://hub.docker.com/repository/docker/mihaell/api_model_tag/general)
+Além de se encontrar também nesse repositório que pode ser clonado e executado
 
 execute o comando:
 
