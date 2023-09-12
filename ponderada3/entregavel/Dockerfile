@@ -12,4 +12,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 8000
 
-CMD ["python", "api_adaBoost.py"]
+CMD ["python", "api_model.py"]
